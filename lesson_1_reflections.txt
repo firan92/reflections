@@ -1,0 +1,13 @@
+1. How did viewing a diff between two versions of a file help you see the bug that was introduced?
+ - Diff command helped specifically pinpoint changes between old and new version where identifying changes was easy and finding bug was quicker rather than doing it manually.
+
+2. How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+ - One can go ahead and take a risk to try new ideas on the current saved version and go back ay any time to restore the old version if the idea didn't work out.
+
+3. What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+- Pros: manually creating a commit would be just the right time for you to commit not to early or not too late. And creating a commit reasonably, for a logical change. Also one can add a hint message to help him/her to remind what was the change about.
+  Cons: automatically saved version controllers arent the best, because they will save not based on your changes but how the system was set up so one does't really knows what changes he/she has made between two versions.
+
+4. Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+- Git changing multiple files in one commit is more convinient because those files are related and a commit indicates a logical change that affect few files at once.
+  Other version controllers not saving multiplie files at ones makes one to loose track while swithing between versions.
